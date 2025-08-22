@@ -10,7 +10,16 @@ Build Amazon Q Developer CLI for Windows.
 
 ## Download
 
-Download the latest zip file from the [Releases](https://github.com/DiscreteTom/amazon-q-developer-cli-for-windows/releases) page. Extract the `q.exe` binary from the downloaded zip file.
+Download the latest zip file from the [Releases](https://github.com/DiscreteTom/amazon-q-developer-cli-for-windows/releases) page. Extract the `q.exe` binary and `update_q.bat` script from the downloaded zip file.
+
+## Updating
+
+To update to the latest version, run the included `update_q.bat` script. This will automatically:
+- Download the latest release from GitHub
+- Extract and replace your current `q.exe` binary
+- Clean up temporary files
+
+The script downloads files to your `~/Downloads` folder during the update process.
 
 ## Overview
 
